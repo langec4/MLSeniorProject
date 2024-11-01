@@ -45,7 +45,11 @@ has context menu
 
 Random Forest Algorithm
 
-   ```
 Uses labeled training data to help the system recognize patterns and predict outcomes accurately.
-    
-   ```
+
+Decision Trees
+
+A map of the possible outcomes of a series of related choices
+
+
+
