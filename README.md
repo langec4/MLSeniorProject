@@ -45,6 +45,6 @@ has context menu
 ### Random Forest Algorithm
 
    ```
-    Uses labeled training data to help the system recognize patterns and predict outcomes accurately.
+Uses labeled training data to help the system recognize patterns and predict outcomes accurately.
     
    ```
