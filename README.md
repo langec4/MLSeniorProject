@@ -1,4 +1,4 @@
-# 🎈 Welcome to our Senior Project!
+# Welcome to our Senior Project!
 
 A simple Streamlit app template for you to modify!
 
@@ -15,7 +15,8 @@ A simple Streamlit app template for you to modify!
 2. Run the app
 
    ```
-   $ streamlit run streamlit_app.py
+   $ Local URL: http://localhost:8502
+     Network URL: http://192.168.4.23:8502
    ```
 
 ### Our dataset we used
@@ -40,4 +41,10 @@ Resource Size: Refers to resouces used by executable (strings, images, icons, ca
  
 Legitimate Data: Either 0 legit, or 1 malicious (labels associated with distinguishing in our dataset).
 has context menu
+   ```
+### Random Forest Algorithm
+
+   ```
+    Uses labeled training data to help the system recognize patterns and predict outcomes accurately.
+    
    ```
