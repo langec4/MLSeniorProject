@@ -42,6 +42,8 @@ Resource Size: Refers to resouces used by executable (strings, images, icons, ca
 Legitimate Data: Either 0 legit, or 1 malicious (labels associated with distinguishing in our dataset).
 has context menu
 
+All of these features are used for training the model with the dataset. Then, these same features are extracted with their values when you upload a given executable file to the streamlit.
+
 
 
 
@@ -52,7 +54,7 @@ Random Forest Algorithm
 ```
 Decision Trees
 ```
-   A map of the possible outcomes of a series of related choices
+   A map of the possible outcomes of a series of related choices. Our project uses 50 decision trees. After using gridsearch, it told us to use 50 decision trees. Also, when doing research on the topic earlier this semester, their were a lot of reccomendations to use 50 trees.
 
 
 
