@@ -21,7 +21,8 @@ A simple Streamlit app template for you to modify!
 
 ### Our dataset we used
    ```
-   $ Malware Dataset: https://github.com/emr4h/Malware-Detection-Using-Machine-Learning/tree/main/data-set 
+   $ Malware Dataset: https://github.com/emr4h/Malware-Detection-Using-Machine-Learning/tree/main/data-set
+   Below are the features that are present in this dataset
    ```
    Address Point Of Entry: Refers to a specific address in memory where the execution of a malicious program starts. Most malicious files use same    entry points, so this could help in identifying malware vs legit files as legit files have different entry points as a whole.
  
