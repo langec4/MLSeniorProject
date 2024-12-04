@@ -4,7 +4,7 @@ A simple Streamlit app template for you to modify!
 
 [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://blank-app-template.streamlit.app/)
 
-### How to run it on your own machine
+## How to run it on your own machine ##
 
 1. Install the requirements
 
@@ -19,7 +19,7 @@ A simple Streamlit app template for you to modify!
      Network URL: http://192.168.4.23:8502
    ```
 
-### Our dataset we used
+## Our dataset we used ##
    ```
    $ Malware Dataset: https://github.com/emr4h/Malware-Detection-Using-Machine-Learning/tree/main/data-set
    Below are the features that are present in this dataset
@@ -48,6 +48,8 @@ All of these features are used for training the model with the dataset. Then, th
 
 
 
+
+
 ```
 Random Forest Algorithm
 ```
@@ -57,5 +59,11 @@ Decision Trees
 ```
    A map of the possible outcomes of a series of related choices. Our project uses 50 decision trees. After using gridsearch, it told us to use 50 decision trees. Also, when doing research on the topic earlier this semester, their were a lot of reccomendations to use 50 trees.
 
+
+## Pefile Python Library ##
+
+   This library is used in our app.py, which extracts the values of the features with the file you uploaded. This is then displayed on our streamlit website. This library is used to parse and work with Portable Executable files (PE).
+   https://github.com/erocarrera/pefile (This is the link for the official documentation of pefile)
+   
 
 
