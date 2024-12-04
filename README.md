@@ -17,6 +17,7 @@ A simple Streamlit app template for you to modify!
    ```
    $ Local URL: http://localhost:8502
      Network URL: http://192.168.4.23:8502
+   (This is not working/implemented yet)
    ```
 
 ## Our dataset we used ##
