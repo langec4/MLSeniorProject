@@ -1,6 +1,6 @@
 streamlit
 jupyter
-pandas as pd
+pandas 
 numpy
 scikit-learn
 pickle
