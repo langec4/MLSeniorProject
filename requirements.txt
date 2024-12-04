@@ -1,2 +1,6 @@
 streamlit
 jupyter
+pandas as pd
+numpy
+scikit-learn
+pickle
