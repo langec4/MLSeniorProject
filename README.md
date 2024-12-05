@@ -54,16 +54,23 @@ The legitimate column has values 0 or 1, with 0 = safe and 1 = malicious. This c
 
 
 ## Random Forest Algorithm ##
-   Uses labeled training data to help the system recognize patterns and predict outcomes accurately.
+   Uses labeled training data to help the system recognize patterns and predict outcomes accurately. After making the decision trees, each individual tree comes to a single decision (safe or malicious), and uses voting (majority rules) to give us a final result.
 
 ## Decision Trees ## 
    A map of the possible outcomes of a series of related choices. Our project uses 50 decision trees. After using gridsearch, it told us to use 50 decision trees. Also, when doing research on the topic earlier this semester, their were a lot of reccomendations to use 50 trees.
+
+## Gradient Boosting ##
+   Gradient boosting is a machine learning technique that takes weaker models and combines them to make one strong model. 
+
+## Grid Search ##
+   Grid search is a method that finds the best possible combination of hyperparameters with their values to provide us with the best accuracy/score
 
 
 ## Pefile Python Library ##
 
    This library is used in our app.py, which extracts the values of the features with the file you uploaded. This is then displayed on our streamlit website. This library is used to parse and work with Portable Executable files (PE).
    https://github.com/erocarrera/pefile (This is the link for the official documentation of pefile)
+   https://pefile.readthedocs.io/en/latest/modules/pefile.html
    
 
 
