@@ -53,13 +53,10 @@ The legitimate column has values 0 or 1, with 0 = safe and 1 = malicious. This c
 
 
 
-```
-Random Forest Algorithm
-```
+## Random Forest Algorithm ##
    Uses labeled training data to help the system recognize patterns and predict outcomes accurately.
-```
-Decision Trees
-```
+
+## Decision Trees ## 
    A map of the possible outcomes of a series of related choices. Our project uses 50 decision trees. After using gridsearch, it told us to use 50 decision trees. Also, when doing research on the topic earlier this semester, their were a lot of reccomendations to use 50 trees.
 
 
