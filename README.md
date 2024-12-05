@@ -62,7 +62,7 @@ The legitimate column has values 0 or 1, with 0 = safe and 1 = malicious. This c
 ## Gradient Boosting ##
    Gradient boosting is a machine learning technique that takes weaker models and combines them to make one strong model. 
 
-## Grid Search ##
+## Grid Search/Random Search ##
    Grid search is a method that finds the best possible combination of hyperparameters with their values to provide us with the best accuracy/score
 
 
