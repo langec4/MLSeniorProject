@@ -46,6 +46,8 @@ has context menu
 
 All of these features are used for training the model with the dataset. Then, these same features are extracted with their values when you upload a given executable file to the streamlit.
 
+The legitimate column has values 0 or 1, with 0 = safe and 1 = malicious. This column is needed for training, so based on the other values, it will learn what makes a file safe vs malicious
+
 
 
 
